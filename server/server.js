@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-//Database connection
+//Database connections
 const DB_URL = process.env.DB_URL;
 mongoose.connect(DB_URL).then((db, err) => {
   try {
