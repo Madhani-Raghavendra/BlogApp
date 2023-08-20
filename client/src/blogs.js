@@ -17,7 +17,7 @@ const Blog = () => {
       if (token === null) {
         navigate("/", { state: null });
       } else {
-        const res = await axios.get("http://localhost:8080/blogs", {
+        const res = await axios.get("https://blog-52ce.onrender.com/blogs", {
           headers: {
             "X-Token": token,
           },
