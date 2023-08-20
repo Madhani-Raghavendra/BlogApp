@@ -3,7 +3,7 @@
 import axios from "axios";
 
 //connecting url to backend
-let url = "http://localhost:8080";
+let url = "https://blog-52ce.onrender.com";
 
 const addBlogApi = (formData) => {
   try {
